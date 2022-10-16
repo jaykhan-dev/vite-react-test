@@ -1,7 +1,6 @@
-/* eslint-disable react/react-in-jsx-scope */
 const Footer = () => {
   return (
-    <footer>
+    <footer className="bg-black text-white   ">
       <div>
         <h1>Portfolio. Made with React.</h1>
       </div>

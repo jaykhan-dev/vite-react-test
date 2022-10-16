@@ -1,8 +1,10 @@
-/* eslint-disable react/react-in-jsx-scope */
+import LottieAnim from '../components/LottieAnim'
+
 const Resume = () => {
   return (
-    <div className="grid place-items-center bg-black text-white h-screen">
-      <h1 className="text-8xl font-bold font-mono">Resume</h1>
+    <div className="grid place-items-center bg-black text-white">
+      <h1 className="mt-20 font-mono text-8xl font-bold">Resume</h1>
+      <LottieAnim />
     </div>
   )
 }
