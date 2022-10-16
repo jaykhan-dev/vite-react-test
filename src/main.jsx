@@ -7,20 +7,23 @@ import Home from './pages/Home'
 import Music from './pages/Music'
 import Projects from './pages/Projects'
 import Resume from './pages/Resume'
-// import Footer from './components/Footer'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="/music" element={<Music />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/projects" element={<Projects />} />
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="/music" element={<Music />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/projects" element={<Projects />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+      <Footer />
+    </>
   )
 }
 
