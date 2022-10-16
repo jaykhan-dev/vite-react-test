@@ -8,10 +8,10 @@ const Home = () => {
       {data &&
         data.map((item) => {
           return (
-            <div className="grid place-items-center h-screen">
+            <div className="grid place-items-center h-screen bg-black text-white">
               <div className="text-center">
               <h1 className="uppercase font-bold my-4">BTC Price:</h1>
-              <p className="lg:text-8xl text-4xl font-bold font-mono text-blue-900">${item.price_usd}</p>
+              <p className="lg:text-8xl text-4xl font-bold font-mono text-blue-500">${item.price_usd}</p>
               </div>
             </div>
           )

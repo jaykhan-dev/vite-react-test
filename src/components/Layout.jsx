@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom"
 const Layout = () => {
   return (
     <>
-      <nav className="flex bg-black text-white py-4 justify-center font-mono uppercase">
+      <nav className="flex bg-black text-white py-4 justify-center font-mono uppercase fixed top-0 w-full">
         <ul className="flex space-x-3">
           <li>
             <Link to="/">Home</Link>
