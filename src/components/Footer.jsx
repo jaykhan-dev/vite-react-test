@@ -1,3 +1,4 @@
+/* eslint-disable react/react-in-jsx-scope */
 const Footer = () => {
   return (
     <footer>
@@ -7,3 +8,5 @@ const Footer = () => {
     </footer>
   )
 }
+
+export default Footer

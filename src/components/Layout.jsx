@@ -1,4 +1,5 @@
-import { Outlet, Link } from "react-router-dom"
+/* eslint-disable react/react-in-jsx-scope */
+import { Outlet, Link } from 'react-router-dom'
 
 const Layout = () => {
   return (
