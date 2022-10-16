@@ -7,6 +7,7 @@ import Home from "./pages/Home"
 import Music from './pages/Music'
 import Projects from './pages/Projects'
 import Resume from './pages/Resume'
+//import Footer from './components/Footer'
 
 export default function App() {
   return (
