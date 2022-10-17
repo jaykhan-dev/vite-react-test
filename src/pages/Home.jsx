@@ -1,6 +1,7 @@
 /* eslint-disable react/jsx-key */
 import useFetch from '../components/useFetch'
 import Software from '../components/Software'
+import Skills from '../components/Skills.jsx'
 
 const Home = () => {
   const [data] = useFetch('https://api.coinlore.net/api/ticker/?id=90')
@@ -29,12 +30,7 @@ const Home = () => {
                   <Software />
                 </div>
               </div>
-
-              <div className="bg-black text-white">
-                <div>
-                  <h1>Skills</h1>
-                </div>
-              </div>
+              <Skills />
             </div>
           )
         })}

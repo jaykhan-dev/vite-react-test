@@ -6,15 +6,10 @@ const Software = () => {
       <h2 className="my-8 text-sm uppercase tracking-widest text-gray-500">
         preferred tech stack for web development
       </h2>
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid gap-4 lg:grid-cols-5">
         <div className="rounded-md border border-white/25 p-4">
           <i className="fa-brands fa-react text-7xl"></i>
           <p>React JS</p>
-        </div>
-
-        <div className="rounded-md border border-white/25 p-4">
-          <i className="fa-brands fa-vuejs text-7xl"></i>
-          <p>Vue JS</p>
         </div>
 
         <div className="rounded-md border border-white/25 p-4">
