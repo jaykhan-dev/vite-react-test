@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Reem+Kufi&family=Space+Grotesk&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*
+font-family: 'Marcellus SC', serif;
+font-family: 'Reem Kufi', sans-serif;
+font-family: 'Space Grotesk', sans-serif;
+*/
 
 body,
 html {
@@ -9,4 +17,16 @@ html {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
+}
+
+h1 {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+h2 {
+  font-family: 'Marcellus SC', serif;
+}
+
+p {
+  font-family: 'Reem Kufi', sans-serif;
 }

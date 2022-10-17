@@ -1,13 +1,11 @@
-/* eslint-disable react/react-in-jsx-scope */
-// eslint-disable-next-line quotes
 import Three from '../components/Three'
 
 const Music = () => {
   return (
-    <div className="grid place-items-center h-screen bg-black text-white text-center">
+    <div className="grid h-screen place-items-center bg-black text-center text-white">
       <div>
-        <h1 className="text-8xl font-bold font-mono">Music</h1>
         <Three />
+        <h1 className="font-mono text-8xl font-bold">Music</h1>
       </div>
     </div>
   )

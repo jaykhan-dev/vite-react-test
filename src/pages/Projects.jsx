@@ -1,12 +1,11 @@
-/* eslint-disable react/react-in-jsx-scope */
 import Loader from '../components/Loader'
 
 const Projects = () => {
   return (
-    <div className="grid place-items-center bg-black text-white h-screen">
+    <div className="grid h-screen place-items-center bg-black text-white">
       <div className="grid place-items-center">
         <Loader />
-        <h1 className="lg:text-8xl text-4xl my-4 font-bold font-mono">
+        <h1 className="my-4 font-mono text-4xl font-bold lg:text-8xl">
           Projects
         </h1>
       </div>
