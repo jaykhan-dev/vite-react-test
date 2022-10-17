@@ -4,7 +4,7 @@ import JKLogo from '../assets/jk-logo-white.svg'
 const Layout = () => {
   return (
     <>
-      <nav className="fixed top-0 flex w-full justify-center border-b border-white/50 bg-black py-4 uppercase text-white">
+      <nav className="fixed top-0 z-50 flex w-full justify-center border-b border-white/25 bg-black/50 py-4 uppercase text-white backdrop-blur-md">
         <div className="flex items-center space-x-4">
           <Link to="/">
             <img src={JKLogo} width="40px" />
